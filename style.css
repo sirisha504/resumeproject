@@ -1,0 +1,145 @@
+.main{
+  background-color: #ddd;
+  border: 1px solid skyblue;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile{
+  padding:2%;
+  margin:2%;
+  width: 30%;
+  font-size:110;
+  text-align: center;
+    background-color: #fff;
+border: 2px solid pink;
+}
+.profile img{
+  width: 100px;
+  border-radius: 50%;
+  border:2px solid;black;
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+}
+.content{
+padding: 2%;
+maring: 2%;
+width=:65%;
+
+border-color: 2px solid skyblue;
+
+background-color: #fff;
+border:2px solid red;
+}
+@media only screen and (max-width:480px){
+  .main{
+    background-color: #ddd;
+    border: 1px solid skyblue;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile{
+    padding:2%;
+    margin:2%;
+    width: 30%;
+    font-size:110;
+    text-align: center;
+      background-color: #fff;
+  border: 2px solid pink;
+  }
+  .profile img{
+    width: 100px;
+    border-radius: 50%;
+    border:2px solid;black;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  .content{
+  padding: 2%;
+  maring: 2%;
+  width=:65%;
+
+  border-color: 2px solid skyblue;
+
+  background-color: #fff;
+  border:2px solid red;
+  }
+}
+@media only screen and (max-device-width:480px) and (min-device-width: 769px){
+  .main{
+    background-color: #ddd;
+    border: 1px solid skyblue;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+
+  .profile{
+    padding:2%;
+    margin:2%;
+    width: 93%;
+    font-size: 110%;
+    text-align: left;
+    background-color: #fff;
+    border:2px solid pink;
+  }
+.profile img{
+    width: 100px;
+    border-radius: 50%;
+    border:2px solid black;
+    display: block;
+      margin-left:auto;
+    margin-right: auto;
+  }
+  .content{
+    padding: 2%;
+    margin: 2%;
+  width:93;
+  border-radius: 10%;
+  border-color: 2px soild skyblue;
+
+  background-color: #fff;
+  border:2px solid red;
+  }
+}
+@media only screen and (min-width:769px) and (max-width:1024px){
+
+background-color:#ddd;
+: 1px solid skyblue;
+irection:column;
+rap:wrap;
+
+
+
+profile{
+  padding: 2%;
+  margin: 2%;
+  width: 93%;
+  font-size: 110%;
+  text-aling:left;
+  background-color: #fff;
+  border: 2px solid pink;
+  }
+  .profile{
+    width:100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    disply:block;
+    margin: -left:auto;
+    margin-right: auto;
+    }
+    .content{
+      padding:2%;
+      margin:2%;
+      width:93%;
+      border-radius:10%;
+      border-color:2px solid skyblue;
+
+      background color: #fff;
+      border: 2px solid red;
+    }
+
+}

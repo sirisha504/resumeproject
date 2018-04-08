@@ -1,0 +1,47 @@
+{
+  "basics":{
+    "name":"siri",
+  "photo":"siri.png",
+  "email":"sirisha9f@gmail.com",
+  "moblie":"9876543210",
+  "address":"SVIT college"
+},
+"carrer":{
+"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization."
+},
+"eduction":[
+  {
+    "degree":"B-tech",
+    "institute":"SVIT,anantapur",
+    "data":["2015-19","75%"]
+  },
+  {
+    "degree":"inter",
+    "institute":"sri chaitaya",
+    "data":["2012-14","75%"]
+  },
+  {
+    "degree":"s.s.c",
+    "institute":"narayana",
+    "data":["2011","75%"]
+  }
+],
+"skills":[
+  {
+  "sdata":"Languages",
+  "sdata":["c","c++","java"]
+  },
+  {
+"sname":"DataBases",
+"sdata":["oracle","Mysql","PDF"]
+},
+{
+  "sname":"web technologies",
+  "sdata":["HTML","XML","CSS","javascript"]
+},
+{
+  "sname":"operting systems",
+  "sdata":["windom","Linux","Unix"]
+}
+]
+}
